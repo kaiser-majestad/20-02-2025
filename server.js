@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
-const eventosRouter = require('./router/eventos');
-const inscripcionesRouter = require('./router/inscripciones');
-const usuariosRouter = require('./router/usuarios');
+const eventosRouter = require('../Santa Maria/gestion_eventos/router/eventos');
+const inscripcionesRouter = require('../Santa Maria/gestion_eventos/router/inscripciones');
+const usuariosRouter = require('../Santa Maria/gestion_eventos/router/usuarios');
 
 app.use(express.json());
 
